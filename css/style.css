@@ -1,0 +1,276 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    padding: 0; }
+
+
+#particles-js {
+    position: absolute;
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1; }
+
+body{
+   
+    background: #0B111B; 
+    font-family:'Montserrat', sans-serif; }
+
+.titulo{
+    border-width: 0px 0px 0px 0px ;
+    border-style: solid;
+    z-index: 99;
+    color: white;
+    background: #0b111b63; 
+} 
+
+
+.titulo .hacker {
+
+ padding-top: 20vh;
+    text-align: center;
+    font-size: 92px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500; 
+}
+
+
+.pentester{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+   }
+
+.team {
+    color: #00fff7; 
+    font-weight: 500;
+}
+
+.textoroot{
+    text-align: center;
+    color: #00fff7; 
+    font-size: 26px;
+    font-weight: 900;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.typed {
+    z-index:100;
+    font-size: 25px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+    background: none;}
+
+.tryhackme {
+    text-align: center;
+  
+}
+.tryhackme-enlance{
+    text-align: center;
+    top: 6vh;
+    border-color: #00fff740;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+    padding: 15px 20px;
+
+    color:#ffffff; 
+    font-size: 22px;
+    overflow: hidden;
+    transition: 0.5s;
+    text-decoration: none; }
+
+.tryhackme-enlance:hover {
+    top: 6vh;
+    border-radius: 3px;
+    position: relative;
+    background-color:  #0E0E13;
+    color: #00FFF7; 
+    font-weight: 100;
+    transition-delay: 1.5s;
+    border-color: #00FFF7;
+    border-style: solid;
+    padding: 15px 20px;
+    display: inline-block;}
+
+.tryhackme-enlance span {
+    position: absolute;
+    display: block; }
+
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #00FFF7); }
+
+.tryhackme-enlance:hover #span1{
+    left: 100%;
+    transition: 1s; }
+ 
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(270deg, transparent,#00FFF7);}
+
+.tryhackme-enlance:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;}
+
+#span2{
+    top: -100%;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#00FFF7);}
+
+.tryhackme-enlance:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s; }
+
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#00FFF7);}
+
+.tryhackme-enlance:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s; }
+
+
+
+.iconos{
+
+    z-index: 99;
+    text-align: center;
+    margin-top: 11vh;
+    width: 100%;
+    font-size: 32px;
+    transition: .2s;
+    color: #00fff7bd;
+}
+
+
+.git{
+    margin-top: 10vh;
+    margin-left: 1%;
+    color: #00fff7bd;
+    transition: .2s;
+}
+
+.git:hover{
+    margin-top: 10vh;
+    color: #00fff7;
+}
+
+
+.link{
+    color: #00fff7bd;
+    margin-left: 1%;
+    transition: .2s;
+}
+
+.link:hover{
+    color: #00fff7;
+}
+
+.telegram{
+    margin-top: 7%;
+    font-size: 32px;
+    color: #00fff7bd;
+   
+    transition: .2s;
+    
+}
+
+.telegram:hover{
+    color: #00fff7;
+}
+
+
+.twitter{
+    margin-top: 7%;
+    font-size: 32px;
+    color: #00fff7bd;
+    margin-left: 1%;
+    transition: .2s;
+}
+
+.twitter:hover{
+    color: #00fff7;
+}
+
+
+@media  (max-width: 768px)
+ { 
+
+    .titulo .hacker {
+        padding-top: 25vh;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Teko', sans-serif;
+        font-weight: 500; 
+    }
+
+    
+.pentester{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+   }
+
+
+   .git{
+    margin-top: 10vh;
+    margin-left: 4%;
+    color: #00fff7bd;
+    transition: .2s;
+}
+
+.link{
+    color: #00fff7bd;
+    margin-left: 4%;
+    transition: .2s;
+}
+
+.telegram{
+    margin-top: 7%;
+    font-size: 32px;
+    color: #00fff7bd;
+    transition: .2s;
+    
+}
+
+
+.twitter{
+    margin-top: 7%;
+    font-size: 32px;
+    color: #00fff7bd;
+    margin-left: 4%;
+    transition: .2s;
+}
+
+
+
+
+}
+   
+
